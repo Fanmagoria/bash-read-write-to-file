@@ -44,17 +44,17 @@ chmod +x file_read_write.sh
     Outputs the content of the specified file
 
 # Example
-
+```bash
 ./file_read_write.sh w
-**Enter the text you want to save: Hello from Bash!**
-** Enter the filename: hello.txt**
-** Do you want to choose a specific folder? (y/n): n**
+Enter the text you want to save: Hello from Bash!
+Enter the filename: hello.txt
+Do you want to choose a specific folder? (y/n): n
 
 ./file_read_write.sh r hello.txt
 
 Contents of hello.txt:
-** Hello from Bash!**
-
+Hello from Bash!
+```
 # Notes
 
     This script is intended for educational use
